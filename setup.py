@@ -28,7 +28,7 @@ def find_version(*file_paths):
 
 setup(
     name='stack-scaffold',
-    version=find_version('__init__.py'),
+    version=find_version('scaffold', '__init__.py'),
     url='http://python-stack.readthedocs.io',
     description='`stack` is a Python version of [stack](http://docs.haskellstack.org/en/stable/README/),',
     author='Ryan Kung',
